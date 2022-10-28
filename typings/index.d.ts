@@ -179,7 +179,7 @@ export function jarallax(
   methodName: 'isVisible'
 ): boolean;
 
-export interface JQuery {
+export interface JQuery<T> {
   /**
    * Init Jarallax with options
    *
